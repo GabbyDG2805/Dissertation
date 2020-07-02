@@ -1,0 +1,14 @@
+1. Install XAMPP: https://www.apachefriends.org/download.html
+2. Navigate to where you installed XAMPP and open the htdocs folder
+3. Delete everything inside the htdocs folder
+4. Copy and paste the folder containing my code files, 'Website Code Files' into htdocs
+5. In your broswer, type in the address: localhost/phpmyadmin
+6. In phpmyadmin you need to create a new database. You can do this by clicking the SQL tab and writing the code: 'CREATE DATABASE *database name here*' then clicking go.
+7. You should now see the name of the database you have just created on the left in phpmyadmin, click on it
+8. With your database selected, click on the SQL tab again.
+9. Now paste the SQL code written in the sql.sql file in my code files into phpmyadmin and click go
+10. You should now see two new tables in your database; users and guides
+11. Now run XAMPP (find xampp-control.exe), open it and press the start buttons next to Apache and MySQL
+12. If these are highlighted green in the XAMPP control panel, you can now view my website
+13. In your browser, go to the address: localhost
+14. Click on the folder with my code files on the webpage and you should be able to see the created website.
